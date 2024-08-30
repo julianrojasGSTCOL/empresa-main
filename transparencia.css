@@ -1,0 +1,77 @@
+.accordion-button {
+    background-color: #3e7bfc;
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #3e7bfc;
+    color: white;
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-body a {
+    color: #3e7bfc;
+    text-decoration: none;
+}
+
+.accordion-body a:hover {
+    text-decoration: underline;
+}
+
+.titulos-acordeon{
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+.titulos-acordeon li a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulos-acordeon li a:hover{
+    text-decoration: underline;
+}
+
+.titulos-acordeon .titulo2{
+    font-weight: bold;
+    color: #004884;
+}
+
+.titulo-acordeon p{
+    color: #004884;
+    font-size: 40px;
+}
+
+.acordeon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.opciones-acordeon{
+    width: 60%;
+    
+}
+
+.accordion-item{
+    width: 100%;
+    margin-bottom: 5px; 
+}
+
+.boton-acordeon{
+    border-radius: 8px;
+    font-size: 20px;
+    height: 15px;
+}
+
+.carrusel_3{
+    width: 70%;
+}
